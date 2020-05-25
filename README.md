@@ -11,7 +11,7 @@ You can pass all the existent html style definition, just transform them as Came
 - text-shadow: 3px 3px 1px black; => textShadow: 3px 3px 1px black
 - backgroundImage: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../../media/examples/lizard.png");
 
-### !!!ONLY the property name should be modified in camelCase, not the value!!!
+> ONLY the property name must be modified in camelCase, not the value
 
 ```
 applyStyles({
