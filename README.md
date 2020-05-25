@@ -15,13 +15,13 @@ You can pass all the existent html style definition, just transform them as Came
 
 ```
 applyStyles({
-  "myMenuClass" : {
+  "myclass" : {
   "color" : "rgb(254, 254, 254)"
 },
-  "myOtherClass" : {
+  "myotherclass" : {
   "backgroundColor" : "rgb(56, 60, 66)"
   "borderColor" : "rgba(0, 0, 0, 0.51)"
  }
 })
 ```
-All tags with these classes will be impacted.
+All tags with these classes (myclass & myotherclass) will be impacted.
