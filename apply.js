@@ -27,7 +27,6 @@ applyStyles(styles)
         if (rules[i].selectorText == mselector)
         {
           ruleIndex = i;
-          //$.extend(rules[i].style, styles[selector])
           assign(rules[i].style, styles[selector])
           break;
         }
@@ -36,7 +35,6 @@ applyStyles(styles)
       {
         let cssStr=""
         ruleIndex=mySheet.insertRule(mselector + '{' + cssStr + '}', rules.length)
-        //$.extend(rules[ruleIndex].style, styles[selector])
         assign(rules[ruleIndex].style, styles[selector])
       }
     }
