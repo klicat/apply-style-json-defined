@@ -1,11 +1,11 @@
 # apply-style-json-defined
 
-## This function dynamically applies (with auto merge) styles
+### This function dynamically applies (with auto merge) styles
 
-## Call function with styles passed as a Json CamelCase defined.
+### Call function with styles passed as a Json CamelCase defined.
 You can pass all the existent html style definition, just transform them as CamelCase
 
-## Examples :
+### Examples :
 - background-color: red; => backgroundColor:red
 - font-size: 10px; => fontSize: 10px
 - text-shadow: 3px 3px 1px black; => textShadow: 3px 3px 1px black
