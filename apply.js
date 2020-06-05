@@ -19,8 +19,9 @@ applyStyles(styles)
 
       var mselector="."+selector
 
-      if(selector.indexOf('Hover')!=-1) mselector=mselector.replace('Hover','')+":hover:not(.active)"
-      if(selector.indexOf('Active')!=-1) mselector=mselector.replace('Active','')+".active"
+      if(selector.indexOf(':focus')!=-1) mselector=mselector.replace(':focus','')+":focus:not(.active)"
+      if(selector.indexOf(':hover')!=-1) mselector=mselector.replace(':hover','')+":hover:not(.active)"
+      if(selector.indexOf(':active')!=-1) mselector=mselector.replace(':active','')+".active"
       let ruleIndex = -1
       for (let i=0; i<rules.length; i++)
       {
