@@ -1,6 +1,6 @@
 # apply-style-json-defined
 
-### This function dynamically applies (with auto merge) styles
+#### This function applies styles dynamically with auto merge 
 
 ### Call function with styles passed as a Json CamelCase defined.
 You can pass all the existent html style definition, just transform them as CamelCase
