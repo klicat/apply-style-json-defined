@@ -2,26 +2,20 @@
 
 #### This function applies styles dynamically with auto merge 
 
-### Call function with styles passed as a Json CamelCase defined.
-> You can pass all [css properties](https://www.w3schools.com/cssref), just transform property name as CamelCase
+### Call function with styles passed as a Json
+> You can pass all [css properties](https://www.w3schools.com/cssref)
 
-### Examples :
-- background-color: red; ====> "backgroundColor": "red"
-- font-size: 10px; ====> "fontSize": "10px"
-- text-shadow: 3px 3px 1px black; => "textShadow": "3px 3px 1px black"
-- background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../../media/examples/lizard.png");   ====> "backgroundImage": "linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url('../../media/examples/lizard.png')"
-
-> ONLY the property name must be modified in camelCase, not the value
+### Example :
 
 ```
 applyStyles({
   "myclass" : {
     "color" : "rgb(254, 254, 254)",
-    "fontSize": "12px"
+    "font-size": "12px"
 },
   "myotherclass" : {
-    "backgroundColor" : "rgb(56, 60, 66)",
-    "borderColor" : "rgba(0, 0, 0, 0.51)"
+    "background-color" : "rgb(56, 60, 66)",
+    "border-color" : "rgba(0, 0, 0, 0.51)"
  }
 })
 ```
