@@ -16,6 +16,12 @@ applyStyles({
   "myotherclass" : {
     "background-color" : "rgb(56, 60, 66)",
     "border-color" : "rgba(0, 0, 0, 0.51)"
+ },
+  "myotherclass:hover" : {
+    "background-color" : "blue"
+ },
+  "myotherclass:active" : {
+    "background-color" : "red"
  }
 })
 ```
