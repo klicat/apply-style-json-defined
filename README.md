@@ -3,7 +3,7 @@
 #### This function applies styles dynamically with auto merge 
 
 ### Call function with styles passed as a Json CamelCase defined.
-> You can pass all the existent html style definition, just transform them as CamelCase
+> You can pass all [css properties](https://www.w3schools.com/cssref), just transform property name as CamelCase
 
 ### Examples :
 - background-color: red; ====> "backgroundColor": "red"
