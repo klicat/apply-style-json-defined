@@ -16,11 +16,12 @@ You can pass all the existent html style definition, just transform them as Came
 ```
 applyStyles({
   "myclass" : {
-  "color" : "rgb(254, 254, 254)"
+    "color" : "rgb(254, 254, 254)",
+    "fontSize": "12px"
 },
   "myotherclass" : {
-  "backgroundColor" : "rgb(56, 60, 66)"
-  "borderColor" : "rgba(0, 0, 0, 0.51)"
+    "backgroundColor" : "rgb(56, 60, 66)",
+    "borderColor" : "rgba(0, 0, 0, 0.51)"
  }
 })
 ```
